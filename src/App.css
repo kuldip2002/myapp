@@ -1,0 +1,13 @@
+.img_div
+{
+  justify-content: center;
+  display: flex;
+
+
+}
+.img_div img
+{
+  height: 300px;
+  width: 300px;
+  margin:10px;
+}
