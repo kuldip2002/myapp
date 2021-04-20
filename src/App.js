@@ -8,15 +8,12 @@ const currentTime = new Date().toLocaleTimeString();
 const img1 = "https://picsum.photos/200/300";
 const img2 = "https://picsum.photos/id/870/200/300?grayscale&blur=2";
 const img3 = "https://picsum.photos/id/237/200/300";
-const para = {
-color: "#fa9191",
-};
+
 function App() {
   return (
     <>
 <h1 style ={{color: "#FF0000", textAlign:"center"}}> {name} </h1>
 <p> {` ${Ftitle} ${Stitle}`}  </p>
-<div style = {para}>
 <ol>
   <li>Stranger Things</li>
   <li>Derek</li>
@@ -24,7 +21,6 @@ function App() {
   <li>White Lines</li>
   <li>The Serpent</li>
 </ol>
-</div>
 <p> current Date is - {currentDate} </p>
 <p> current Time is - {currentTime}</p>
 <div className="img_div">
